@@ -1,0 +1,36 @@
+img{
+    height: 500px;
+}
+.carousel-dark .carousel-caption {
+    color: #0a58ca;
+    top: 50%;
+}
+h5 {
+    font-size: xx-large;
+    background: #00000066;
+    position: relative;
+    text-shadow: -1px 0px #f3eded;
+}
+.slide-up {
+    -webkit-animation: slide-up 0.9s cubic-bezier(0.65, 0, 0.35, 1) both;
+            animation: slide-up 0.9s cubic-bezier(0.65, 0, 0.35, 1) both;
+  }
+  
+  @-webkit-keyframes slide-up {
+    0% {
+      transform: translateY(100px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slide-up {
+    0% {
+      transform: translateY(100px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+ 

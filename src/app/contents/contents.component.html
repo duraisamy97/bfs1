@@ -1,0 +1,172 @@
+<!-- <app-navbar></app-navbar> -->
+ <div>
+  <app-slider></app-slider>
+</div>
+
+<section>
+    <h3 class="about">About Us</h3>
+    <p>Before First Solutions LLP is a partnership firm providing processing services for the US Mortgage market. Currently the firm is heavily involved in helping the preservation companies process their work orders and bids per market standards complying
+        to client’s requirement.</p>
+    <div class="butt">
+        <div class="more" (click)="con()">
+            More Info <i class='fas fa-angle-double-right'></i>
+        </div>
+    </div>
+</section>
+<section>>
+    <h3 class="Service">Services</h3>
+        <div class="row">
+            <div class="col-md-12 mx-auto">
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="0">
+                    <!-- Carousel indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-bs-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-bs-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for carousel items -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-sm-4" id="servicecontent">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="assets/inspection.jpg" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Inspection Quality Check</h4>
+                                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p> -->
+                                            <a routerLink="/inspection" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4" id="servicecontent">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="assets/preservation.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Preservation Work Order Quality Check</h4>
+                                            <!-- <p>Vivamus fermentum in arcu in aliquam. Quisque aliqua porta odio in fringilla vivamus.</p> -->
+                                            <a routerLink="/preservation" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4" id="servicecontent">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="assets/bids.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Estimate Creation or Bid Submission</h4>
+                                            <!-- <p>Convallis eget pretium eu, bibendum non leo. Proin susc ipit purus adipiscing dolor.</p> -->
+                                            <a routerLink="/estimate creation or bid submission" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-sm-4" id="servicecontent">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="assets/review.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Property Level Review</h4>
+                                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p> -->
+                                            <a routerLink="/proprty level review" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4" id="servicecontent">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="assets/landscape.jpg" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Landscaping Management / Seasonal Activities</h4>
+                                            <!-- <p>Vivamus fermentum in arcu in aliquam. Quisque aliqua porta odio in fringilla vivamus.</p> -->
+                                            <a routerLink="/landscaping management" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4" id="servicecontent">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="assets/communication.jpg" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Verbal and Written Communication</h4>
+                                            <!-- <p>Convallis eget pretium eu, bibendum non leo. Proin susc ipit purus adipiscing dolor.</p> -->
+                                            <a routerLink="/communication" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-sm-4" id="servicecontent">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="assets/ValueAddedServices.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Value Added Services</h4>
+                                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p> -->
+                                            <a routerLink="/value added services" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel controls -->
+                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+
+</section>
+<section>
+    <div class="row">
+        <div class="col-md-8" id="contacts">
+            <h4 class="con">CONTACT</h4>
+            <div class="row">
+                <div class="col-md-4" id="ctext">
+                    <h5>Location</h5>
+                    <i class='fas fa-map-marked-alt'></i>
+                    <p>Mumbai, India</p>
+                    <p>Bangalore, India</p>
+                </div>
+                <div class="col-md-4" id="ctext">
+                    <h5>Our hours</h5>
+                    <i class='fas fa-business-time'></i>
+                    <p>24 Hours</p>
+                    <p>Monday – Saturday</p>
+                </div>
+                <div class="col-md-4" id="ctext">
+                    <h5>Contact us</h5>
+                    <i class='far fa-address-card'></i>
+                    <p>Phone: +1 337 243 6364 extn : 4003</p>
+                    <p>Email:Enquiries@beforefirstsolutions.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15567198.531500807!2d72.56911193388655!3d17.71702687354305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sBefore%20First%20Solutions%20%20LLP!5e0!3m2!1sen!2sus!4v1651127761316!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</section>
+<footer>
+    Copyright © 2022 Before First Solutions LLP.
+</footer>
